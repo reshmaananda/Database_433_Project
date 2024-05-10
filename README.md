@@ -1,7 +1,7 @@
 # Amazon Co-Purchase Recommendation Project
 ## Overview
 
-This project aims to develop a recommendation system for Amazon co-purchase data using various machine learning algorithms and network analysis techniques. The system provides recommendations for items that are frequently purchased together based on historical co-purchase data from Amazon.
+This project aims to develop a copurchasing analysis using community detection and a recommendation system for Amazon co-purchase data using various machine learning algorithms and network analysis techniques. The system provides recommendations for items that are frequently purchased together based on historical co-purchase data from Amazon.
 
 ### Modules
 - #### DataProcessing : 
@@ -35,7 +35,6 @@ This project aims to develop a recommendation system for Amazon co-purchase data
 - [Lokesh Poluru Velayudham](https://github.com/lokeshvelayudham/)
 
 ## Results
-
-The recommendation system provides accurate book recommendations based on the co-purchase behavior of Amazon customers. Evaluation metrics such as precision, recall, and F1-score are used to assess the performance of the recommendation algorithms.
+Co purchasing analysis using Louvain and Girvan newman algorithim detected all possible communities and the recommendation system provides accurate book recommendations based on the co-purchase behavior of Amazon customers. Evaluation metrics such as accuracy, MSE, ROC AUC Score.
 
 
